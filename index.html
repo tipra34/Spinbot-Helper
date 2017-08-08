@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spinbot Helper</title>
+    <meta charset="utf-8">
+    <meta name="author" content="arpit">
+    <meta name="description" content="Easily spin website content without worrying about tags">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./md5.js"></script>
+  </head>
+  <body>
+    <textarea type="text" id="spin_input" placeholder="input website content"></textarea>
+    <button onclick="spin()" id="spin_button">Encript html tags</button>
+    <textarea type="text" id="reverse_spin_input" placeholder="input html with encripted tags"></textarea>
+    <textarea type="text" id="tags_input" placeholder="input JSON object for tags"></textarea>
+    <button onclick="reverseSpin()">Decript html tags</button>
+    <textarea type="text" id="output" placeholder="Your Output is here"></textarea>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
